@@ -4,9 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Todo</title>
 </head>
-<body>
+<body class="has-navbar-fixed-top">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item special is-size-1">
+        Todo
+      </a>
   
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-dark">
+              Sign up
+            </a>
+            <a class="button is-dark">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero is-primary is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <div class="field">
+          <a class="button is-large checkout" href="#taskstore">
+            Checkout all your tasks here
+          </a>
+          <div class="control">
+            <input id="writetask" class="input is-primary" type="text" placeholder="Primary input">
+          </div>
+        </div>
+        <a id="addtodo" class="button is-info is-size-2">
+          Add task
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div id="taskstore" class="container">
+        
+      </div>
+    </div>
+  </section>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <script src="./assets/js/app.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </body>
 </html>
