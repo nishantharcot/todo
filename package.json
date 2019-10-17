@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "After cloning the repository, run  'python -m http.server 8080' where index.html file is present. The pages are served in 'localhost:8080'.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishantharcot/todo.git"
+  },
+  "author": "Arcot Nishanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishantharcot/todo/issues"
+  },
+  "homepage": "https://github.com/nishantharcot/todo#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-html": "^6.0.0"
+  }
+}
